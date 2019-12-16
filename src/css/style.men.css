@@ -1,0 +1,141 @@
+/*MEN APP-STYLE
++++++++++++++++++++++*/
+
+
+/*header
+========*/
+.men-intro{
+    background: url('../img/bgMen.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    background-color: #f8f8f8;
+}
+.men-intro__inner{
+    height: 80vh;
+    position: relative;
+}
+.men-intro__link{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 13%;
+    border: 1px solid #575153;
+    text-transform: uppercase;
+    transition: background-color .3s linear, color .3s linear;
+}
+.men-intro__link:hover{
+    color: #fff;
+    background-color: #00c8c8;
+}
+/*men content
+==============*/
+.men-content{
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+/*Sort
+=======*/
+.sort{
+    width: 100%;
+    border-top: 2px solid #eee;
+    padding: 50px 0;
+    display: flex;
+}
+.sort__link{
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: color .3s linear;
+}
+.sort__link:not(:last-of-type){
+    margin-right: 55px;
+}
+.sort__link:hover{
+    color: #00c8c8;
+}
+.sort__link--active{
+    color: #00c8c8;
+}
+
+
+
+
+.men-content__inner{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1400px;
+    max-height: 1200px;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 15px;
+    margin-bottom: 60px;
+}
+.men-content__card{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    transition: transform .2s linear, box-shadow .2s linear;
+}
+
+.men-content__img{
+    max-width: 100%;
+    height: auto;
+}
+.men-content__card--hit{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.men-content__card--hit .men-content__img{
+    width: 100%;
+    height: 100%;
+}
+.men-content__info{
+    /*display: none;*/
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    transition: opacity .3s linear, box-shadow .3s linear;
+}
+.men-content__price{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.men-content__title{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.men-content__description {
+    margin-top: 10px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.men-content__card:hover {
+    z-index: 1000;
+    transform: scale(1.1);
+    box-shadow:  0 0 10px 0 #00c8c8;
+}
+.men-content__card:hover .men-content__info {
+    z-index: 999;
+    opacity: 1;
+    box-shadow: 0px 8px  15px 0px #00c8c8;
+}
+
+
+
+
+@media screen and (max-width:1880px) {
+    .men-content__inner{
+        max-width: 900px;
+        max-height: 700px;
+    }
+
+}
