@@ -174,7 +174,20 @@ a {
 }
 
 
-
+/*button
+============================*/
+.button {
+    padding: 15px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #575153;
+    text-transform: uppercase;
+    transition: background-color .3s linear, color .3s linear;
+}
+.button:hover{
+    color: #fff;
+    background-color: #00c8c8;
+}
 
 
 

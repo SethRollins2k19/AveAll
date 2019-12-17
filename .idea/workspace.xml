@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f954d59-dac5-4171-9c14-1bc77e837361" name="Default Changelist" comment="" />
+    <list default="true" id="4f954d59-dac5-4171-9c14-1bc77e837361" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/pages/template.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.brand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.women.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bgTemplate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/bgWomen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-man2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-man3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-man4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-man5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-man6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-woman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-woman2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-woman3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-woman4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-woman5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/card-photo-woman6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/card-photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/card-photo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/card-photo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/card-photo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/card-photo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/card-photo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/brand-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/brand-page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/men-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/men-page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/women-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/women-page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.men.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.men.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/tools/unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/tools/unit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/card-photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/card-photo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/card-photo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/card-photo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/card-photo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/card-photo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новая папка/1.bundel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новая папка/1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новая папка/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новая папка/bundel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новая папка/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новая папка/main.min.css" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +64,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UyVunmjSJ73N85jEKeWYhK4PO5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\portfolio\achivment\spa\framework\src\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,11 +111,26 @@
       <workItem from="1576415972363" duration="2279000" />
       <workItem from="1576435781149" duration="5670000" />
       <workItem from="1576482732950" duration="2598000" />
-      <workItem from="1576508891725" duration="24167000" />
+      <workItem from="1576508891725" duration="24769000" />
+      <workItem from="1576585163372" duration="17131000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

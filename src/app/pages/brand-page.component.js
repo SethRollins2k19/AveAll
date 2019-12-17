@@ -10,6 +10,6 @@ class BrandPageComponent extends WFMComponent{
 export const brandPageComponent = new BrandPageComponent({
     selector: 'app-brand-page',
     template: `
-        <div>BRAND PAGE</div>
+        <div></div>
     `
 })

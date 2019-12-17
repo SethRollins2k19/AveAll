@@ -1,21 +1,21 @@
-/*MEN APP-STYLE
+/*WOMEN APP-STYLE
 +++++++++++++++++++++*/
 
 
 /*header
 ========*/
-.men-intro{
-    background: url('../img/bgMen.jpg');
+.women-intro{
+    background: url('../img/bgWomen.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 80vh;
     background-color: #f8f8f8;
 }
-.men-intro__inner{
+.women-intro__inner{
     height: 80vh;
     position: relative;
 }
-.men-intro__link{
+.women-intro__link{
     position: absolute;
     right: 0;
     bottom: 13%;
@@ -23,7 +23,7 @@
 }
 /*men content
 ==============*/
-.men-content{
+.women-content{
     width: 87%;
     margin: 0 auto;
     margin-top: 60px;
@@ -54,7 +54,7 @@
 
 
 
-.men-content__inner{
+.women-content__inner{
     display: grid;
     margin: 0 auto;
     max-width: 1400px;
@@ -66,7 +66,7 @@
     grid-gap: 15px;
     margin-bottom: 60px;
 }
-.men-content__card{
+.women-content__card{
     cursor: pointer;
     width: 100%;
     height: 100%;
@@ -75,50 +75,50 @@
     transition: transform .2s linear, box-shadow .2s linear;
 }
 
-.men-content__img{
+.women-content__img{
     max-width: 100%;
     height: auto;
 
 }
-.men-content__card--hit{
+.women-content__card--hit{
     grid-row: span 2;
     grid-column: span 2;
 }
-.men-content__card--hit .men-content__img{
+.women-content__card--hit .women-content__img{
     width: 100%;
     height: 100%;
 }
-.men-content__info{
+.women-content__info{
     /*display: none;*/
     opacity: 0;
     position: absolute;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
     background-color: #fff;
     transition: opacity .3s linear, box-shadow .3s linear;
 }
-.men-content__price{
+.women-content__price{
     position: absolute;
     top: 5px;
     left: 5px;
 }
-.men-content__title{
+.women-content__title{
     margin-top: 10px;
     font-size: 13px;
     text-align: center;
 }
-.men-content__description {
+.women-content__description {
     margin-top: 10px;
     padding: 0 15px;
     text-align: center;
     font-size: 15px;
 }
-.men-content__card:hover {
+.women-content__card:hover {
     z-index: 1000;
     transform: scale(1.1);
     box-shadow:  0 0 10px 0 #00c8c8;
 }
-.men-content__card:hover .men-content__info {
+.women-content__card:hover .women-content__info {
     z-index: 999;
     opacity: 1;
     box-shadow: 0px 8px  15px 0px #00c8c8;
@@ -128,7 +128,7 @@
 
 
 @media screen and (max-width:1880px) {
-    .men-content__inner{
+    .women-content__inner{
         max-width: 900px;
         max-height: 700px;
     }

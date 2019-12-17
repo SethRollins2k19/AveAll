@@ -10,41 +10,36 @@ export const wfm = {
 	isUndefined (definition) {
 	    return typeof definition === 'undefined'
     },
-    scrollInit(selector){
-        // if(isScroll == 0) {
-            // isScroll = 1;
-
-            scrollToPosition(selector)
-        // } else return;
-        console.log(selector);
-        function scrollToPosition(selector){
-            let ourPos = pageYOffset;
-            console.log(ourPos);
-            let contPos = document.querySelector(selector.dataset.scrollId).getBoundingClientRect().top + pageYOffset - 50;
-            console.log(contPos);
-            if(ourPos > contPos){
-                let timer = setInterval(()=>{
-                    if (pageYOffset < contPos){
-                        clearInterval(timer);
-                        // isScroll = 0;
-                    } else {
-                        scrollTo(0, ourPos);
-                        ourPos-=10;
-                    }}, 5)
+    scrollInit(target,isScroll){
+	    if(isScroll == 0){
+	        isScroll = 1;
+            this.scrollToPosition(target)
+        } else return;
+    },
+    scrollToPosition(selector, isScroll){
+    let ourPos = pageYOffset;
+    let contPos = document.querySelector(selector.dataset.scrollId).getBoundingClientRect().top + pageYOffset - 50;
+    if(ourPos > contPos){
+        let timer = setInterval(()=>{
+            if (pageYOffset < contPos){
+                clearInterval(timer);
+                isScroll = 0;
             } else {
-                let timer = setInterval(() => {
-                    if (pageYOffset > contPos ){
-                        clearInterval(timer);
-                        // isScroll = 0;
-                    } else {
-                        scrollTo(0, ourPos);
-                        ourPos+=10;
-                    }
-                }, 5)
+
+                ourPos-=10;
+            }}, 5)
+    } else {
+        let timer = setInterval(() => {
+            if (pageYOffset > contPos ){
+                clearInterval(timer);
+                isScroll = 0;
+            } else {
+                scrollTo(0, ourPos);
+                ourPos+=10;
             }
-        }
-        console.log(selector);
+        }, 5)
     }
+}
 }
 // export class Scroll {
 //
