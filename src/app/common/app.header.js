@@ -9,7 +9,7 @@ class AppHeader extends WFMComponent {
 export const appHeader = new AppHeader({
     selector: 'app-header',
     template: `
-		<div class="top-header">		 
+		<div class="top-header" id="header-top">		 
 			<div class="container">
 				<div class="top-header__inner">
 					<div class="profile">

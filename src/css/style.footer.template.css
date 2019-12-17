@@ -1,0 +1,12 @@
+/*template footer app-style
+++++++++++++++++++++++++++++++*/
+
+.footer-template{
+    margin-top: 90px;
+    min-height: 600px;
+}
+.footer-template__title{
+    text-transform: uppercase;
+    font-size: 46px;
+    border-bottom: 1px solid #999999;
+}

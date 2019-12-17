@@ -154,6 +154,8 @@ a {
     text-transform: uppercase;
 }
 .fast-links__text{
+    cursor: pointer;
+    display: block;
     font-size: 14px;
 }
 .fast-links__address{

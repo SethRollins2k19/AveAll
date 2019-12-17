@@ -42,7 +42,7 @@ export const brandPageComponent = new BrandPageComponent({
                         <p class="brand-info__title">Ethical trading</p>  
                         <p class="brand-info__subtitle">we oversee the working conditions of the people in the supply chain</p> 
                         <p class="brand-info__text">Nullam dapibus consectetur neque, faucibus porttitor purus iaculis sed. Aenean eras dapibus augue, eget dignissim dui maecenas et rhoncus mim, vel semper arcu lorem
-Pellentesque congue justo esteir pellentesque aliquet massa eget posuere tincidunt. Cras viverra ullamcorper nunc accumsan hendrerit. A link 
+Pellentesque congue justo esteir pellentesque aliquet massa eget posuere tincidunt. Cras viverra ullamcorper nunc accumsan hendrerit. A link
 </p>                
                     </div>
                     <div class="brand-info">

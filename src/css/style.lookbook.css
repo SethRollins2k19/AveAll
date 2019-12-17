@@ -1,0 +1,78 @@
+/*lookbook app-style
++++++++++++++++++++++++*/
+
+.lookbook-intro{
+    margin-top: 70px;
+    height: 450px;
+    width: 100%;
+    background: url('../img/bgTemplate.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lookbook-intro__title{
+    color: white;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.lookbook-intro__title::after{
+    content: " lookbook";
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.lookbook {
+    margin: 60px 0;
+    padding: 40px 0;
+    border-top: 2px solid #999999;
+    border-bottom: 2px solid #999;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+.lookbook__item{
+    position: relative;
+}
+
+.lookbook__img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.lookbook-info{
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s linear;
+}
+.lookbook-info__cost{
+    margin: 0;
+}
+.lookbook__icon{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+.lookbook__icon .fa-search{
+    font-size: 150px;
+}
+.lookbook-info__overview{
+    text-align: center;
+    font-size: 14px;
+}
+
+.lookbook__item:hover .lookbook-info{
+    opacity: .9;
+}

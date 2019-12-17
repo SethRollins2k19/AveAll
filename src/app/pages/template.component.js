@@ -10,6 +10,6 @@ class TemplateComponent extends WFMComponent {
 export const templateComponent = new TemplateComponent({
     selector: 'app-template',
     template: `
-            
+         
     `
 })
