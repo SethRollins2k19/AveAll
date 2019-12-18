@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f954d59-dac5-4171-9c14-1bc77e837361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/style.footer.template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/style.lookbook.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/common/app.footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/common/app.footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/common/app.header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/common/app.header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/brand-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/brand-page.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/lookbook-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/lookbook-page.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/template.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/template.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +66,7 @@
       <workItem from="1576435781149" duration="5670000" />
       <workItem from="1576482732950" duration="2598000" />
       <workItem from="1576508891725" duration="24769000" />
-      <workItem from="1576585163372" duration="28103000" />
+      <workItem from="1576585163372" duration="28341000" />
     </task>
     <task id="LOCAL-00001" summary="added new pages with style and also scroll and template for product">
       <created>1576609648801</created>
@@ -98,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576613198121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="template for footer">
+      <created>1576620610152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576620610152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +117,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added new pages with style and also scroll and template for product" />
     <MESSAGE value="add brand page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add brand page" />
+    <MESSAGE value="template for footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="template for footer" />
   </component>
 </project>
