@@ -1,0 +1,26 @@
+.account {
+    margin-top: 70px;
+}
+
+.account-title {
+    color: #575153;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #57515338;
+    text-transform: uppercase;
+}
+
+.account-info{
+    padding: 60px 0;
+}
+.account-email{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.account-email span{
+    font-weight: 900;
+    letter-spacing: 3px;
+}

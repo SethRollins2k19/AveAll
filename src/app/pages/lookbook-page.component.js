@@ -17,12 +17,14 @@ class LookBookPageComponent extends WFMComponent{
     openDetail({target}){
         let elem;
         scrollTo(0, 150);
-        if(target.parentElement.classList.contains('lookbook__item')){
+        if (target.classList.contains('lookbook__item')){
+            elem = target
+        } else if(target.parentElement.classList.contains('lookbook__item')){
             elem = target.parentElement
         } else if (target.parentElement.parentElement.classList.contains('lookbook__item')){
             elem = target.parentElement.parentElement
-        } else if (target.classList.contains('lookbook__item')){
-            elem = target
+        } else if (target.parentElement.parentElement.parentElement.classList.contains('lookbook__item')){
+            elem = target.parentElement.parentElement.parentElement;
         }
         window.location.hash = 'template';
         templateComponent.template = `
@@ -61,7 +63,7 @@ class LookBookPageComponent extends WFMComponent{
                             </ul>
                         </div>
                         <button onclick="window.history.back()" class="button template__back">back</button>
-                        <a class="template__button button">add to lookBook</a>
+<!--                        <a class="template__button button">add to lookBook</a>-->
                     </div>
                 </div>
             </div>
@@ -80,16 +82,88 @@ export const lookbookPageComponent = new LookBookPageComponent({
         </div>
         <div class="container">
              <div class="lookbook">
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-woman.png"
+                                               data-name="ave classic sweatshirt"
+                                               data-cost="332.11"
+                                               data-description="Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.">
+                    <img src="assets/img/card-photo-woman.png" alt="" class="lookbook__img">
+                    <div class="lookbook-info">
+                          <p class="lookbook-info__cost">£332.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
+                          <div class="lookbook-info__overview">
+                              Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.
+      
+                        </div>              
+                    </div>
+                 </div> 
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-man.png"
+                                               data-name="ave classic sweatshirt"
+                                               data-cost="312.11"
+                                               data-description="Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.">
+                    <img src="assets/img/card-photo-man.png" alt="" class="lookbook__img">
+                    <div class="lookbook-info">
+                          <p class="lookbook-info__cost">£312.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
+                          <div class="lookbook-info__overview">
+                              Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.
+      
+                        </div>              
+                    </div>
+                 </div> 
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-woman2.png"
+                                               data-name="ave classic sweatshirt"
+                                               data-cost="432.11"
+                                               data-description="Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.">
+                    <img src="assets/img/card-photo-woman2.png" alt="" class="lookbook__img">
+                    <div class="lookbook-info">
+                          <p class="lookbook-info__cost">£432.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
+                          <div class="lookbook-info__overview">
+                              Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.
+      
+                        </div>              
+                    </div>
+                 </div> 
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-man2.png"
+                                               data-name="ave classic sweatshirt"
+                                               data-cost="342.11"
+                                               data-description="Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.">
+                    <img src="assets/img/card-photo-man2.png" alt="" class="lookbook__img">
+                    <div class="lookbook-info">
+                          <p class="lookbook-info__cost">£342.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
+                          <div class="lookbook-info__overview">
+                              Lorem ipsum dolor sit amet eras facilisis
+consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+Elementum metus facilisis ut phasellu.
+      
+                        </div>              
+                    </div>
+                 </div> 
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-woman3.png"
                                                data-name="ave classic sweatshirt"
                                                data-cost="32.11"
                                                data-description="Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
+                    <img src="assets/img/card-photo-woman3.png" alt="" class="lookbook__img">
                     <div class="lookbook-info">
                           <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
+                          <i class="fas fa-search lookbook__icon"></i>
                           <div class="lookbook-info__overview">
                               Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
@@ -100,14 +174,14 @@ Elementum metus facilisis ut phasellu.
                  </div> 
                  <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
                                                data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
+                                               data-cost="12.11"
                                                data-description="Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 Elementum metus facilisis ut phasellu.">
                     <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
                     <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
+                          <p class="lookbook-info__cost">£12.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
                           <div class="lookbook-info__overview">
                               Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
@@ -116,16 +190,16 @@ Elementum metus facilisis ut phasellu.
                         </div>              
                     </div>
                  </div> 
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-woman4.png"
                                                data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
+                                               data-cost="132.11"
                                                data-description="Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
+                    <img src="assets/img/card-photo-woman4.png" alt="" class="lookbook__img">
                     <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
+                          <p class="lookbook-info__cost">£132.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
                           <div class="lookbook-info__overview">
                               Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
@@ -134,16 +208,16 @@ Elementum metus facilisis ut phasellu.
                         </div>              
                     </div>
                  </div> 
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-man4.jpg"
                                                data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
+                                               data-cost="932.11"
                                                data-description="Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
+                    <img src="assets/img/card-photo-man4.jpg" alt="" class="lookbook__img">
                     <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
+                          <p class="lookbook-info__cost">£932.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
                           <div class="lookbook-info__overview">
                               Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
@@ -152,16 +226,16 @@ Elementum metus facilisis ut phasellu.
                         </div>              
                     </div>
                  </div> 
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-woman5.jpg"
                                                data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
+                                               data-cost="1132.11"
                                                data-description="Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
+                    <img src="assets/img/card-photo-woman5.jpg" alt="" class="lookbook__img">
                     <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
+                          <p class="lookbook-info__cost">£1132.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
                           <div class="lookbook-info__overview">
                               Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
@@ -170,52 +244,16 @@ Elementum metus facilisis ut phasellu.
                         </div>              
                     </div>
                  </div> 
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
+                 <div class="lookbook__item"  data-src="assets/img/card-photo-man5.jpg"
                                                data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
+                                               data-cost="532.11"
                                                data-description="Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
 Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
+                    <img src="assets/img/card-photo-man5.jpg" alt="" class="lookbook__img">
                     <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
-                          <div class="lookbook-info__overview">
-                              Lorem ipsum dolor sit amet eras facilisis
-consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
-Elementum metus facilisis ut phasellu.
-      
-                        </div>              
-                    </div>
-                 </div> 
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
-                                               data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
-                                               data-description="Lorem ipsum dolor sit amet eras facilisis
-consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
-Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
-                    <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
-                          <div class="lookbook-info__overview">
-                              Lorem ipsum dolor sit amet eras facilisis
-consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
-Elementum metus facilisis ut phasellu.
-      
-                        </div>              
-                    </div>
-                 </div> 
-                 <div class="lookbook__item"  data-src="assets/img/card-photo-man3.png"
-                                               data-name="ave classic sweatshirt"
-                                               data-cost="32.11"
-                                               data-description="Lorem ipsum dolor sit amet eras facilisis
-consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
-Elementum metus facilisis ut phasellu.">
-                    <img src="assets/img/card-photo-man3.png" alt="" class="lookbook__img">
-                    <div class="lookbook-info">
-                          <p class="lookbook-info__cost">£32.11</p>
-                          <div class="lookbook__icon"><i class="fas fa-search"></i></div>
+                          <p class="lookbook-info__cost">£532.11</p>
+                          <i class="fas fa-search lookbook__icon"></i>
                           <div class="lookbook-info__overview">
                               Lorem ipsum dolor sit amet eras facilisis
 consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.

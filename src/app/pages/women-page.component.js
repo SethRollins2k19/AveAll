@@ -68,7 +68,7 @@ class WomenPageComponent extends WFMComponent{
                             </ul>
                         </div>
                         <button onclick="window.history.back()" class="button template__back">back</button>
-                        <a class="template__button button">add to lookBook</a>
+<!--                        <a class="template__button button">add to lookBook</a>-->
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ export const womenPageComponent = new WomenPageComponent({
         <header class="women-intro">
             <div class="container">
                 <div class="women-intro__inner">
-                    <a class="women-intro__link button" data-scroll-id="#shop">shop women\`s collection</a>
+                    <a class="women-intro__link button" data-scroll-id="#shop">view women\`s collection</a>
                 </div>
         </div>
 </header>
@@ -94,11 +94,11 @@ export const womenPageComponent = new WomenPageComponent({
     <main class="women-content">
         
             <header class="sort">
-                <a href="" class="sort__link">popular</a>
-                <a href="" class="sort__link">new arrivals</a>
-                <a href="" class="sort__link">best sellers</a>
-                <a href="" class="sort__link">special offers</a>
-                <a href="" class="sort__link">coming soon</a>
+<!--                <a href="" class="sort__link">popular</a>-->
+<!--                <a href="" class="sort__link">new arrivals</a>-->
+<!--                <a href="" class="sort__link">best sellers</a>-->
+<!--                <a href="" class="sort__link">special offers</a>-->
+<!--                <a href="" class="sort__link">coming soon</a>-->
             </header> 
             <div class="women-content__inner" id="shop">
                 <div class="women-content__card" data-src="assets/img/card-photo-woman6.png"

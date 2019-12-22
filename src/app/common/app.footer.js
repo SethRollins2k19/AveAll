@@ -12,6 +12,7 @@ class AppFooter extends WFMComponent {
         }
     }
     openDetail({ target }){
+        window.location.hash = 'template'
         this.relocation()
         templateComponent.template = `
           <div class="container">
@@ -23,6 +24,7 @@ class AppFooter extends WFMComponent {
               </div>
         </div>
         `
+        scrollTo(0,0)
     }
     relocation(){
         window.location.hash = 'template1'
@@ -57,13 +59,13 @@ export const appFooter = new AppFooter({
 </section>           
                     <section class="fast-links__item">
                         <h4 class="fast-links__title">your account</h4>
-                        <p class="fast-links__text">Sign in</p>
-                        <p class="fast-links__text">Register</p>
+                        <a href="#registration" class="fast-links__text">Sign in</a>
+                        <p><a href="#registration" class="fast-links__text">Register</a></p>
 </section>                    
                     <section class="fast-links__item">
                         <h4 class="fast-links__title">lookbook</h4>
-                        <p class="fast-links__text">Latest posts</p>
-                        <p class="fast-links__text">View your lookbook</p>
+<!--                        <p class="fast-links__text">Latest posts</p>-->
+                        <a href="#lookbook" class="fast-links__text">View lookbook</a>
 </section>                    
                     <section class="fast-links__item">
                         <h4 class="fast-links__title">contact details</h4>

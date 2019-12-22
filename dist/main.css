@@ -86,6 +86,26 @@ a {
 	content: 'fashion';
 	font-weight: 500;
 }
+/*login
+=========*/
+.top-header--login {
+    background: #575153;
+    color: #999999;
+}
+.profile--login {
+    display: flex;
+    justify-content: flex-end;
+}
+.profile__item--login{
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+}
+.profile__item--login:hover {
+    color: #fff;
+    background: #00c8c8;
+}
+
 /*Nav
 ========*/
 .nav {
@@ -189,8 +209,25 @@ a {
     color: #fff;
     background-color: #00c8c8;
 }
+/*Error
+==================*/
+.error {
+    color: #ff3126;
+    padding: 5px 20px;
+    background: #d3d3d3;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+/*Successful access
+=====================*/
 
-
+.success {
+    color: #3cd300;
+    padding: 5px 20px;
+    background: #d3d3d3;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
 
 /*text's modificators
 =======================*/
@@ -724,7 +761,7 @@ a {
     height: 150px;
     align-self: center;
 }
-.lookbook__icon .fa-search{
+.lookbook__icon{
     font-size: 150px;
 }
 .lookbook-info__overview{
@@ -748,3 +785,85 @@ a {
     border-bottom: 1px solid #999999;
 }
 
+/*Registration app-style
++++++++++++++++++++++++++++*/
+
+.registration {
+    margin-top: 70px;
+    padding: 60px 0 125px;
+    display: flex;
+}
+
+.registration__sign-in{
+    width: 50%;
+    border-right: 2px solid #999999;
+    padding: 0 20px;
+}
+
+.registration__sign-up{
+    padding: 0 20px;
+    width: 50%;
+}
+.registration__title{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+}
+.registration__form{
+    display: flex;
+    flex-direction: column;
+}
+.registration__input{
+    width: 100%;
+    margin-top: 35px;
+    padding: 10px;
+}
+.registration__input:focus {
+    border-color: #ff3126;
+}
+.registration__input::placeholder{
+    opacity: .3;
+}
+.registration__signUp{
+    margin-top: 25px;
+}
+.registration__button, .login__button{
+    width: auto;
+    margin-top: 30px;
+    padding: 15px 35px;
+}
+
+.login-post{
+    margin-top: 20px;
+    display: none;
+}
+.register-post{
+    margin-top: 20px;
+    display: none;
+}
+.account {
+    margin-top: 70px;
+}
+
+.account-title {
+    color: #575153;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #57515338;
+    text-transform: uppercase;
+}
+
+.account-info{
+    padding: 60px 0;
+}
+.account-email{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.account-email span{
+    font-weight: 900;
+    letter-spacing: 3px;
+}

@@ -87,6 +87,26 @@ a {
 	content: 'fashion';
 	font-weight: 500;
 }
+/*login
+=========*/
+.top-header--login {
+    background: #575153;
+    color: #999999;
+}
+.profile--login {
+    display: flex;
+    justify-content: flex-end;
+}
+.profile__item--login{
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+}
+.profile__item--login:hover {
+    color: #fff;
+    background: #00c8c8;
+}
+
 /*Nav
 ========*/
 .nav {
@@ -190,8 +210,25 @@ a {
     color: #fff;
     background-color: #00c8c8;
 }
+/*Error
+==================*/
+.error {
+    color: #ff3126;
+    padding: 5px 20px;
+    background: #d3d3d3;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+/*Successful access
+=====================*/
 
-
+.success {
+    color: #3cd300;
+    padding: 5px 20px;
+    background: #d3d3d3;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
 
 /*text's modificators
 =======================*/

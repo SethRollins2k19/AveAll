@@ -10,6 +10,7 @@ class AppComponent extends WFMComponent {
 export const appComponent = new AppComponent({
 	selector: 'app-root',
 	template: ` 
+        <app-header-top></app-header-top>
 		<app-header></app-header>
 		<router-outlet></router-outlet>
 		<app-footer></app-footer>

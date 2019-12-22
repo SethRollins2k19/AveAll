@@ -1,0 +1,56 @@
+/*Registration app-style
++++++++++++++++++++++++++++*/
+
+.registration {
+    margin-top: 70px;
+    padding: 60px 0 125px;
+    display: flex;
+}
+
+.registration__sign-in{
+    width: 50%;
+    border-right: 2px solid #999999;
+    padding: 0 20px;
+}
+
+.registration__sign-up{
+    padding: 0 20px;
+    width: 50%;
+}
+.registration__title{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+}
+.registration__form{
+    display: flex;
+    flex-direction: column;
+}
+.registration__input{
+    width: 100%;
+    margin-top: 35px;
+    padding: 10px;
+}
+.registration__input:focus {
+    border-color: #ff3126;
+}
+.registration__input::placeholder{
+    opacity: .3;
+}
+.registration__signUp{
+    margin-top: 25px;
+}
+.registration__button, .login__button{
+    width: auto;
+    margin-top: 30px;
+    padding: 15px 35px;
+}
+
+.login-post{
+    margin-top: 20px;
+    display: none;
+}
+.register-post{
+    margin-top: 20px;
+    display: none;
+}
