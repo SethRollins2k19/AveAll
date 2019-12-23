@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f954d59-dac5-4171-9c14-1bc77e837361" name="Default Changelist" comment="template for footer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/registration-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/registration-page.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/common/app.header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/common/app.header.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <workItem from="1576817999858" duration="7153000" />
       <workItem from="1576906723501" duration="34560000" />
       <workItem from="1577035689287" duration="6710000" />
-      <workItem from="1577133307895" duration="1179000" />
+      <workItem from="1577133307895" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="added new pages with style and also scroll and template for product">
       <created>1576609648801</created>
