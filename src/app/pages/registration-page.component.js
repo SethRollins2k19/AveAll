@@ -77,6 +77,9 @@ class RegistrationComponent extends WFMComponent {
                                       </div>
                                     </div>
                                 </div>`
+                    wfm.delay(3500).then(()=>{
+                        window.location.hash = "account"
+                    })
                 } else {
                     if (elem.classList.contains('success')) {
                         elem.classList.remove('success')
@@ -95,10 +98,6 @@ class RegistrationComponent extends WFMComponent {
                 elem.textContent = "Error in username or password"
                 elem.style.display = 'block'
             }
-        wfm.delay(3500).then(()=>{
-            window.location.hash = "account"
-        })
-
     }
 
 
