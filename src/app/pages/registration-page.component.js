@@ -49,6 +49,7 @@ class RegistrationComponent extends WFMComponent {
                     elem.textContent = "Access successful"
                     elem.style.display = 'block'
                     document.getElementById('header-top')
+
                         .parentElement.innerHTML = `        
                                                 <div class="top-header--login" id="header-top">		 
                                                     <div class="container">
@@ -77,9 +78,9 @@ class RegistrationComponent extends WFMComponent {
                                       </div>
                                     </div>
                                 </div>`
-                    wfm.delay(3500).then(()=>{
-                        window.location.hash = "account"
-                    })
+                    wfm.delay(3500).then(()=>{})
+
+                    window.location.hash = "account"
                 } else {
                     if (elem.classList.contains('success')) {
                         elem.classList.remove('success')
