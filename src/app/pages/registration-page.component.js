@@ -78,9 +78,9 @@ class RegistrationComponent extends WFMComponent {
                                       </div>
                                     </div>
                                 </div>`
-                    wfm.delay(3500).then(()=>{})
+                    setTimeout(()=>{ window.location.hash = "account"})
 
-                    window.location.hash = "account"
+
                 } else {
                     if (elem.classList.contains('success')) {
                         elem.classList.remove('success')
